@@ -1,0 +1,211 @@
+/* Center the top part of the page: profile picture, headings and paragraphs */
+.wrapper {
+  padding: 2rem;
+  text-align: center;
+}
+
+.wrapper img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+/* Add some padding to the main content */
+body {
+  padding: 20px;
+}
+
+
+/* Set the font size and line height for the main content */
+.location, .education-list li, .experience-list li, .volunteer-list li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Add features to the skills table */
+.table-wrapper {
+  display: table;
+  margin: 0 auto;
+}
+
+.skills-table {
+  border: 1px solid navy;
+  border-radius: 5px;
+  background-color: lightgrey;
+  color: navy;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skills-table td {
+  padding: 10px;
+}
+
+.skills-table td:before {
+  content: "◆";
+}
+
+/* Center the contact details table */
+.heading-container {
+  text-align: center;
+}
+
+.centered-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: navy;
+}
+
+.contact-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+/* Set the font size, line height and spaces between cells for the contact details */
+.contact-table td {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/* Add margin to the education and experience sections */
+.education-list, .experience-list {
+  margin-top: 20px;
+}
+
+/* Add a font-weight and color to the graduation dates */
+.graduation-date {
+  font-weight: bold;
+  color: red;
+}
+
+/* Add a font-style and color to the education institutes */
+.alma-mater {
+  font-style: italic;
+  font-weight: bold;
+  color: navy;
+}
+
+/* Add a font-weight and underscore to the roles */
+.role {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+/* Add a font-style and color to jobs details */
+.job-details {
+  font-style: italic;
+}
+
+/* Portfolio */
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: #007BA7;
+  font-family: Book Antiqua;
+  text-align: center;
+}
+
+.item {
+  margin: 10px;
+  border: 4px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  transition: all .2s;
+}
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+.item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px navy;
+}
+.item h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.item h5 {
+  font-size: 16px;
+  font-style: italic;
+}
+.item p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.item button {
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: lightgrey;
+  color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s;
+}
+.item button:hover {
+  background-color: #0069d9;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+footer form {
+  display: inline-block;
+  margin: 0;
+}
+footer form input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  width: 200px;
+}
+footer form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s;
+}
+footer form button:hover {
+  background-color: #0069d9;
+}
+footer img {
+  display: inline-block;
+  height: 50px;
+  margin-left: 10px;
+  vertical-align: middle;
+}

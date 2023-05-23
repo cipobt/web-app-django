@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- http://127.0.0.1:8000/personal/ -->
+<html>
+{% load static %}
+<head>
+	<title>About me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+	<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+</head>
+
+<body>
+	<div class="wrapper">
+		<img src="{% static 'images\Red Shirt 2.jpg' %}" alt="Profile picture">
+		<br>
+		<h1>Jesús Márquez</h1>
+		<h2>Software Engineer</h2>
+	
+		<p>I am a Python developer with problem solving aptitudes and well tested communication skills through 
+		extensive teaching, leading and organising in teams. I’m interested in offering person based solutions to clients at different levels. 
+		I’m currently looking for opportunities for a career path in the tech industry.</p>
+
+		<p>I'm originally from Venezuela, though I'm now a British Citizen and I've been living in England for over fifteen years. 
+		In my homecountry I got a BSc Computer Science degree in early 2000s and I worked in that field for three years. I'm returning to the tech industry after
+		a hiatus of over two decades, during which I became a social worker and eventually moved to the UK to work in the Charity sector.</p>
+
+		<p>During the pandemic I was directly responsible for creating online content and organising mindfulness and Buddhist ethics courses for Buddhist charities. 
+		Those courses benefited hundreds of people. On previous roles included administration of local networks, maintenance of automated ticketing systems, user support 
+		and customer service.</p>
+	</div>
+
+	<div class="heading-container">
+  		<h3 class="centered-heading">TECH SKILLS</h3>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="item">
+					<h4>Python</h4>
+			  	</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<h4>OOP</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<h4>SQL databases</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<h4>Django</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<h4>CSS</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<h4>Bootstrap</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="heading-container">
+  		<h3 class="centered-heading">SOFT SKILLS</h3>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="item">
+					<h4>Fluent Spanish speaker</h4>
+			  	</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<h4>Lean Management Techniques</h4>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<h4>Equality and Diversity Trained</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br>
+	
+	<div class="heading-container">
+		<h3 class="centered-heading">MORE ABOUT ME?<br><br>Have a look at</h3>
+		
+		<br><br>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="item">
+					<h2><a class="portfolio-link" target="_blank" href="portfolio">my portfolio</a></h2>
+				</div>
+			</div>
+		  	<div class="col-md-2">
+				<div class="item">
+					<img src="{% static 'images/GitHub.png' %}" alt="GitHub Icon" style="height: 10%;">
+					<h2><a class="github-link" target="_blank" href="https://github.com/cipobt">my GitHub page</a></h2>
+				</div>
+			</div>
+		  	<div class="col-md-2">
+				<div class="item">
+					<img src="{% static 'images/Linkedin.jpg' %}" alt="LinkedIn Icon" style="height: 10%;">
+					<h2><a class="linkedin-link" target="_blank" href="https://www.linkedin.com/in/aryavachin/">my Linkedin profile</a></h2>
+				</div>
+		  	</div>
+		  	<div class="col-md-4">
+				<div class="item">
+					<h2><a class="blog-link" target="_blank" href="blog">my blog</a></h2>
+				</div>
+		  	</div>
+		</div>
+	</div>
+	
+	<br><br><br>
+	
+	<div class="heading-container">
+  		<h3 class="centered-heading">CONTACT DETAILS</h3>
+	</div>
+	<br>
+	<table class="contact-table">
+			<tr>
+				<td>Phone number: <strong>+44 7511 645 221</strong></td>
+				<td>Address: <strong>18 Cranford Gardens, Nottingham, NG2 7ES</strong></td>
+				<td>Email: <strong>aryavachin@gmail.com</strong></td>
+			</tr>
+		</tbody>
+	</table>
+<!--	<br>-->
+<!--	<h3>EDUCATION</h3>-->
+
+<!--	<ul class="education-list">-->
+<!--		<li><span class="alma-mater">Software Engineering Bootcamp with HyperionDev</span><br><span class="graduation-date">Expected graduation date: March 2023</span></li>-->
+<!--		<li><span class="alma-mater">BSc Computer Science at IUFRONT, Venezuela</span><br><span class="graduation-date">Graduated: April 2020</span></li>-->
+<!--	</ul>-->
+
+<!--	<h3>EXPERIENCE & PERSONAL PROJECTS</h3>-->
+
+<!--	<ul class="experience-list">-->
+<!--		<li><span class="role">Charity Coordinator / Mindfulness Teacher</span><br><span class="job-details">Nottingham Buddhist Centre • Nottingham • May 2016 - Jan 2023</span><br>-->
+<!--		I worked as a coordinator for this Buddhist Charity and part of my role was to teach courses on midfulness, Buddhist ethics and other -->
+<!--		traditional Buddhist teachings. I also created an online six weeks course during the lockdowns at the end of 2020 that helped many people -->
+<!--		dealing with isolation and anxiety to connect to a wider sense of community and belonging.</li>-->
+<!--		<br>-->
+<!--		<li><span class="role">Store Person - Maintenance Services</span><br><span class="job-details">Addenbrooke's Hospital • Cambridge • June 2015 - March 2016</span><br>-->
+<!--		Daily operation of stores database by recording items, job docket ticket number, date of issue and log information; monitoring stock and -->
+<!--		non-stock items, part orders, overdue orders, stationery and issue stock items to Maintenance Department personnel. My role also included -->
+<!--		carrying out basic electrical, mechanical, and building fault finding tasks, providing service maintenance and remedial work to service plant and equipment.</li>-->
+<!--	</ul>-->
+
+<!--	<h3>VOLUNTEER EXPERIENCE</h3>-->
+
+<!--	<ul class="volunteer-list">-->
+<!--		<li><span class="role">Volunteer at Hospital Wards</span><br><span class="job-details">Addenbrooke's Hospital • Cambridge • 2015</span><br>-->
+<!--		Dedicated two or three hours a week for several months, helping to distribute food among patients in different wards and chatting with them or their visitors.</li>-->
+<!--	</ul>-->
+
+</body>
+</html>
+
